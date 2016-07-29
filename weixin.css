@@ -55,7 +55,6 @@
     width: 33.33333%; }
   .col.m5 {
     width: 41.66667%; }
-
   .col.m6 {
     width: 50%; }
   .col.m7 {
@@ -196,7 +195,6 @@ body {
             margin-left: 0.5rem;
             line-height: 1.3rem; }
     .weixinbox .box .content {
-      height: 19.08rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
