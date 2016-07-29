@@ -195,6 +195,7 @@ body {
             margin-left: 0.5rem;
             line-height: 1.3rem; }
     .weixinbox .box .content {
+      height: 19.08rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -380,7 +381,7 @@ body {
             font-size: 0.35rem;
             color: #aaaaae;
             text-align: center;
-            line-height: 1.3rem; }
+            line-height: 0.8rem; }
           .tongxunbox .box .content .con-box .serch-box .serch {
             width: 0.43rem;
             height: 0.43rem;

@@ -86,7 +86,7 @@ body{
     }
 
     .content{
-      
+      height:19.08rem;
       width: 100%;
       position: fixed;
       top:1.3rem;
@@ -263,7 +263,7 @@ body{
             font-size: 0.35rem;
             color: #aaaaae;
             text-align: center;
-            line-height: 1.3rem;
+            line-height: 0.8rem;
           }
           .serch{
             @include cube(0.43rem);
