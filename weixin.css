@@ -195,7 +195,7 @@ body {
             margin-left: 0.5rem;
             line-height: 1.3rem; }
     .weixinbox .box .content {
-      height: 19.08rem;
+      height: 18.6rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -294,7 +294,7 @@ body {
               color: #b2b2b2; }
     .weixinbox .box .nav-bot {
       width: 100%;
-      height: 1.3rem;
+      height: 1.48rem;
       background: url("images/IMG_0216_03.png") repeat-x;
       position: fixed;
       bottom: 0;
@@ -349,7 +349,7 @@ body {
         background: url("images/sa_03s.png") no-repeat left center;
         background-size: 100%; }
     .tongxunbox .box .content {
-      height: 19.08rem;
+      height: 18.6rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -492,7 +492,7 @@ body {
           height: 100%; }
     .tongxunbox .box .nav-bot {
       width: 100%;
-      height: 1.8rem;
+      height: 1.48rem;
       position: fixed;
       bottom: 0;
       left: 0;
@@ -547,7 +547,7 @@ body {
         background: url("images/IMG_0216_03.gif") no-repeat left center;
         background-size: 100%; }
     .minebox .box .content {
-      height: 19.08rem;
+      height: 18.6rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -686,7 +686,7 @@ body {
           height: 100%; }
     .minebox .box .nav-bot {
       width: 100%;
-      height: 1.8rem;
+      height: 1.48rem;
       position: fixed;
       bottom: 0;
       left: 0;
@@ -741,7 +741,7 @@ body {
         background: url("images/IMG_0216_03.gif") no-repeat left center;
         background-size: 100%; }
     .findbox .box .content {
-      height: 19.08rem;
+      height: 18.6rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -826,7 +826,7 @@ body {
           height: 100%; }
     .findbox .box .nav-bot {
       width: 100%;
-      height: 1.8rem;
+      height: 1.48rem;
       position: fixed;
       bottom: 0;
       left: 0;
