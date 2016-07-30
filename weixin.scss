@@ -189,12 +189,12 @@ body{
         float: left;
         img{
           @include trixe(0.77rem,0.65rem);
-          margin: 0;
         }
         h5{
           font-size: 0.25rem;
           color: #9b9b9b;
           font-weight: normal;
+          line-height: 0;
         }
       }
     }

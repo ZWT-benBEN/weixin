@@ -308,12 +308,12 @@ body {
         float: left; }
         .weixinbox .box .nav-bot li img {
           width: 0.77rem;
-          height: 0.65rem;
-          margin: 0; }
+          height: 0.65rem; }
         .weixinbox .box .nav-bot li h5 {
           font-size: 0.25rem;
           color: #9b9b9b;
-          font-weight: normal; }
+          font-weight: normal;
+          line-height: 0; }
 
 .tongxunbox {
   display: none; }
