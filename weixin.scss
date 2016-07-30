@@ -236,7 +236,7 @@ body{
     }
 
     .content{
-      height:18.6rem;
+      height:18.53rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -375,13 +375,11 @@ body{
 
     .nav-bot{
       width: 100%;
-      height: 1.48rem;
+      height: 1.4rem;
       position: fixed;
       bottom: 0;
       left: 0;
       background:url("images/IMG_0216_03.png")repeat-x;
-      @include c-align;
-      bottom: 0;
       border-top:0.005rem solid #b2b2b2;
       box-sizing: border-box;
       li{
@@ -390,12 +388,13 @@ body{
         text-align: center;
         float: left;
         img{
-          @include trixe(0.8rem,0.72rem);
+          @include trixe(0.77rem,0.65rem);
         }
         h5{
-          font-size: 0.28rem;
+          font-size: 0.25rem;
           color: #9b9b9b;
           font-weight: normal;
+          line-height: 0;
         }
       }
     }
@@ -437,7 +436,7 @@ body{
     }
 
     .content{
-      height:18.6rem;
+      height:18.53rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -574,13 +573,11 @@ body{
 
     .nav-bot{
       width: 100%;
-      height: 1.48rem;
+      height: 1.4rem;
       position: fixed;
       bottom: 0;
       left: 0;
       background:url("images/IMG_0216_03.png")repeat-x;
-      @include c-align;
-      bottom: 0;
       border-top:0.005rem solid #b2b2b2;
       box-sizing: border-box;
       li{
@@ -589,12 +586,13 @@ body{
         text-align: center;
         float: left;
         img{
-          @include trixe(0.8rem,0.72rem);
+          @include trixe(0.77rem,0.65rem);
         }
         h5{
-          font-size: 0.28rem;
+          font-size: 0.25rem;
           color: #9b9b9b;
           font-weight: normal;
+          line-height: 0;
         }
       }
     }
@@ -636,7 +634,7 @@ body{
     }
 
     .content{
-      height:18.6rem;
+      height:18.53rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -724,13 +722,11 @@ body{
 
     .nav-bot{
       width: 100%;
-      height: 1.48rem;
+      height: 1.4rem;
       position: fixed;
       bottom: 0;
       left: 0;
       background:url("images/IMG_0216_03.png")repeat-x;
-      @include c-align;
-      bottom: 0;
       border-top:0.005rem solid #b2b2b2;
       box-sizing: border-box;
       li{
@@ -739,12 +735,13 @@ body{
         text-align: center;
         float: left;
         img{
-          @include trixe(0.8rem,0.72rem);
+          @include trixe(0.77rem,0.65rem);
         }
         h5{
-          font-size: 0.28rem;
+          font-size: 0.25rem;
           color: #9b9b9b;
           font-weight: normal;
+          line-height: 0;
         }
       }
     }

@@ -345,7 +345,7 @@ body {
         background: url("images/sa_03s.png") no-repeat left center;
         background-size: 100%; }
     .tongxunbox .box .content {
-      height: 18.6rem;
+      height: 18.53rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -488,16 +488,11 @@ body {
           height: 100%; }
     .tongxunbox .box .nav-bot {
       width: 100%;
-      height: 1.48rem;
+      height: 1.4rem;
       position: fixed;
       bottom: 0;
       left: 0;
       background: url("images/IMG_0216_03.png") repeat-x;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      bottom: 0;
       border-top: 0.005rem solid #b2b2b2;
       box-sizing: border-box; }
       .tongxunbox .box .nav-bot li {
@@ -506,12 +501,13 @@ body {
         text-align: center;
         float: left; }
         .tongxunbox .box .nav-bot li img {
-          width: 0.8rem;
-          height: 0.72rem; }
+          width: 0.77rem;
+          height: 0.65rem; }
         .tongxunbox .box .nav-bot li h5 {
-          font-size: 0.28rem;
+          font-size: 0.25rem;
           color: #9b9b9b;
-          font-weight: normal; }
+          font-weight: normal;
+          line-height: 0; }
 
 .minebox {
   display: none; }
@@ -543,7 +539,7 @@ body {
         background: url("images/IMG_0216_03.gif") no-repeat left center;
         background-size: 100%; }
     .minebox .box .content {
-      height: 18.6rem;
+      height: 18.53rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -682,16 +678,11 @@ body {
           height: 100%; }
     .minebox .box .nav-bot {
       width: 100%;
-      height: 1.48rem;
+      height: 1.4rem;
       position: fixed;
       bottom: 0;
       left: 0;
       background: url("images/IMG_0216_03.png") repeat-x;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      bottom: 0;
       border-top: 0.005rem solid #b2b2b2;
       box-sizing: border-box; }
       .minebox .box .nav-bot li {
@@ -700,12 +691,13 @@ body {
         text-align: center;
         float: left; }
         .minebox .box .nav-bot li img {
-          width: 0.8rem;
-          height: 0.72rem; }
+          width: 0.77rem;
+          height: 0.65rem; }
         .minebox .box .nav-bot li h5 {
-          font-size: 0.28rem;
+          font-size: 0.25rem;
           color: #9b9b9b;
-          font-weight: normal; }
+          font-weight: normal;
+          line-height: 0; }
 
 .findbox {
   display: none; }
@@ -737,7 +729,7 @@ body {
         background: url("images/IMG_0216_03.gif") no-repeat left center;
         background-size: 100%; }
     .findbox .box .content {
-      height: 18.6rem;
+      height: 18.53rem;
       width: 100%;
       position: fixed;
       top: 1.3rem;
@@ -822,16 +814,11 @@ body {
           height: 100%; }
     .findbox .box .nav-bot {
       width: 100%;
-      height: 1.48rem;
+      height: 1.4rem;
       position: fixed;
       bottom: 0;
       left: 0;
       background: url("images/IMG_0216_03.png") repeat-x;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      bottom: 0;
       border-top: 0.005rem solid #b2b2b2;
       box-sizing: border-box; }
       .findbox .box .nav-bot li {
@@ -840,12 +827,13 @@ body {
         text-align: center;
         float: left; }
         .findbox .box .nav-bot li img {
-          width: 0.8rem;
-          height: 0.72rem; }
+          width: 0.77rem;
+          height: 0.65rem; }
         .findbox .box .nav-bot li h5 {
-          font-size: 0.28rem;
+          font-size: 0.25rem;
           color: #9b9b9b;
-          font-weight: normal; }
+          font-weight: normal;
+          line-height: 0; }
 
 .out {
   display: block; }
