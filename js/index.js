@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
     $('.header i').on('click',function(){
         $('.shower').toggleClass('xiaos')
     })
@@ -23,4 +23,27 @@ $(function(){
         $('.aa').removeClass('out')
         $('.findbox').addClass('out')
     })
-})
+})*/
+var weixin = angular.module('weixin',['ngRoute']);
+weixin.controller('wx',['$scope',function($scope){}]);
+
+weixin.config([
+	'$routeProvider',
+	function($routeProvider){
+		$routeProvider.when('/',{
+			templateUrl:'html/shouye.html',
+		})
+		.when('/liaotian',{
+				templateUrl:'html/shouye.html',
+		})
+		.when('/lianxi',{
+			templateUrl:'html/tongxun.html',
+		})
+		.when('/pengyou',{
+			templateUrl:'html/pengyou.html',
+		})
+		.when('/wo',{
+			templateUrl:'html/wo.html',
+		})
+	}
+])

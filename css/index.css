@@ -1,0 +1,844 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative; }
+
+.row {
+  position: relative; }
+
+.row::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both; }
+
+.col {
+  float: left; }
+
+@media screen and (max-width: 3000px) {
+  .col.l1 {
+    width: 8.33333%; }
+  .col.l2 {
+    width: 16.66667%; }
+  .col.l3 {
+    width: 25%; }
+  .col.l4 {
+    width: 33.33333%; }
+  .col.l5 {
+    width: 41.66667%; }
+  .col.l6 {
+    width: 50%; }
+  .col.l7 {
+    width: 58.33333%; }
+  .col.l8 {
+    width: 66.66667%; }
+  .col.l9 {
+    width: 75%; }
+  .col.l10 {
+    width: 83.33333%; }
+  .col.l11 {
+    width: 91.66667%; }
+  .col.l12 {
+    width: 100%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m1 {
+    width: 8.33333%; }
+  .col.m2 {
+    width: 16.66667%; }
+  .col.m3 {
+    width: 25%; }
+  .col.m4 {
+    width: 33.33333%; }
+  .col.m5 {
+    width: 41.66667%; }
+  .col.m6 {
+    width: 50%; }
+  .col.m7 {
+    width: 58.33333%; }
+  .col.m8 {
+    width: 66.66667%; }
+  .col.m9 {
+    width: 75%; }
+  .col.m10 {
+    width: 83.33333%; }
+  .col.m11 {
+    width: 91.66667%; }
+  .col.m12 {
+    width: 100%; } }
+
+@media screen and (max-width: 736px) {
+  .col.s1 {
+    width: 8.33333%; }
+  .col.s2 {
+    width: 16.66667%; }
+  .col.s3 {
+    width: 25%; }
+  .col.s4 {
+    width: 33.33333%; }
+  .col.s5 {
+    width: 41.66667%; }
+  .col.s6 {
+    width: 50%; }
+  .col.s7 {
+    width: 58.33333%; }
+  .col.s8 {
+    width: 66.66667%; }
+  .col.s9 {
+    width: 75%; }
+  .col.s10 {
+    width: 83.33333%; }
+  .col.s11 {
+    width: 91.66667%; }
+  .col.s12 {
+    width: 100%; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  borer: 0; }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 64.41224px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 33.1723px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 30.91787px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 30.19324px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 28.98551px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 25.7649px; } }
+
+.weixinbox {
+  display: none; }
+  .weixinbox .box {
+    width: 100%;
+    height: 22rem; }
+    .weixinbox .box .header {
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 1.3rem;
+      background: url("../images/IMG_0227_03.png") repeat-x;
+      text-align: center;
+      font-size: 0.35rem;
+      font-weight: normal;
+      color: #fff;
+      line-height: 1.3rem; }
+      .weixinbox .box .header i {
+        display: block;
+        width: 0.58rem;
+        height: 0.59rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 0.62rem;
+        background: url("../images/IMG_0216_03.gif") no-repeat left center;
+        background-size: 100%; }
+      .weixinbox .box .header .shower.xiaos {
+        display: block; }
+      .weixinbox .box .header .shower {
+        width: 4.24rem;
+        height: 5.29rem;
+        background: #49484b;
+        position: fixed;
+        top: 1.6rem;
+        right: 0.2rem;
+        padding: 0 0.62rem;
+        box-sizing: border-box;
+        display: none; }
+        .weixinbox .box .header .shower .jiao {
+          width: 0.4rem;
+          height: 0.4rem;
+          background: #49484b;
+          position: absolute;
+          top: -0.2rem;
+          right: 0.52rem;
+          transform: rotateZ(45deg); }
+        .weixinbox .box .header .shower li {
+          height: 1.3rem;
+          border-bottom: 0.01rem solid #5c5b5d; }
+          .weixinbox .box .header .shower li img {
+            width: 0.57rem;
+            height: 0.57rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 0; }
+          .weixinbox .box .header .shower li h4 {
+            font-size: 0.42rem;
+            font-weight: 300;
+            margin-left: 0.5rem;
+            line-height: 1.3rem; }
+    .weixinbox .box .content {
+      height: 18.53rem;
+      width: 100%;
+      position: fixed;
+      top: 1.3rem;
+      left: 0; }
+      .weixinbox .box .content .con-box {
+        position: relative;
+        width: 100%;
+        height: 106%;
+        overflow-y: auto; }
+        .weixinbox .box .content .con-box .serch-box {
+          width: 100%;
+          height: 1.3rem;
+          padding: 0.25rem;
+          box-sizing: border-box;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          background: #efeff4; }
+          .weixinbox .box .content .con-box .serch-box input {
+            width: 11.88rem;
+            height: 0.8rem;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border: none;
+            border-radius: 0.1rem;
+            font-size: 0.35rem;
+            color: #aaaaae;
+            text-align: center;
+            line-height: 0.8rem; }
+          .weixinbox .box .content .con-box .serch-box .serch {
+            width: 0.43rem;
+            height: 0.43rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 5.17rem;
+            background: url("../images/IMG_0216_10.gif") no-repeat;
+            background-size: 100%; }
+          .weixinbox .box .content .con-box .serch-box .maike {
+            width: 0.37rem;
+            height: 0.57rem;
+            background: url("../images/IMG_0216_07.gif");
+            background-size: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            right: 0.45rem; }
+        .weixinbox .box .content .con-box .chat-list {
+          width: 100%;
+          margin-top: 1.3rem;
+          padding-left: 0.3rem;
+          box-sizing: border-box; }
+          .weixinbox .box .content .con-box .chat-list li {
+            width: 100%;
+            height: 2.05rem;
+            border-bottom: 1px solid #d9d9d9; }
+            .weixinbox .box .content .con-box .chat-list li img {
+              width: 1.52rem;
+              height: 1.52rem;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto; }
+            .weixinbox .box .content .con-box .chat-list li .item-con {
+              height: 1.52rem;
+              width: auto;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              left: 2.13rem; }
+              .weixinbox .box .content .con-box .chat-list li .item-con h4 {
+                font-size: 0.52rem;
+                color: black;
+                margin-top: 0.28rem; }
+              .weixinbox .box .content .con-box .chat-list li .item-con h5 {
+                font-size: 0.36rem;
+                color: #9b9b9b;
+                font-weight: normal;
+                margin-top: 0.2rem; }
+            .weixinbox .box .content .con-box .chat-list li .time {
+              width: auto;
+              height: 2.05rem;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              right: 0.32rem;
+              font-size: 0.2rem;
+              line-height: 2.05rem;
+              color: #b2b2b2; }
+    .weixinbox .box .nav-bot {
+      width: 100%;
+      height: 1.4rem;
+      background: url("../images/IMG_0216_03.png") repeat-x;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      border-top: 0.005rem solid #b2b2b2;
+      box-sizing: border-box; }
+      .weixinbox .box .nav-bot li {
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        float: left; }
+        .weixinbox .box .nav-bot li img {
+          width: 0.77rem;
+          height: 0.65rem; }
+        .weixinbox .box .nav-bot li h5 {
+          font-size: 0.25rem;
+          color: #9b9b9b;
+          font-weight: normal;
+          line-height: 0; }
+
+.tongxunbox .box {
+  width: 100%;
+  height: 22rem; }
+  .tongxunbox .box .header {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.3rem;
+    background: url("../images/IMG_0227_03.png") repeat-x;
+    text-align: center;
+    font-size: 0.35rem;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.3rem; }
+    .tongxunbox .box .header i {
+      display: block;
+      width: 0.58rem;
+      height: 0.59rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.62rem;
+      background: url("../images/sa_03s.png") no-repeat left center;
+      background-size: 100%; }
+  .tongxunbox .box .content {
+    height: 18.53rem;
+    width: 100%;
+    position: fixed;
+    top: 1.3rem;
+    left: 0; }
+    .tongxunbox .box .content .con-box {
+      position: relative;
+      width: 100%;
+      height: 106%;
+      overflow-y: auto; }
+      .tongxunbox .box .content .con-box .serch-box {
+        width: 100%;
+        height: 1.3rem;
+        padding: 0.25rem;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #efeff4; }
+        .tongxunbox .box .content .con-box .serch-box input {
+          width: 11.88rem;
+          height: 0.8rem;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          border: none;
+          border-radius: 0.1rem;
+          font-size: 0.35rem;
+          color: #aaaaae;
+          text-align: center;
+          line-height: 0.8rem; }
+        .tongxunbox .box .content .con-box .serch-box .serch {
+          width: 0.43rem;
+          height: 0.43rem;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          left: 5.17rem;
+          background: url("../images/IMG_0216_10.gif") no-repeat;
+          background-size: 100%; }
+        .tongxunbox .box .content .con-box .serch-box .maike {
+          width: 0.37rem;
+          height: 0.57rem;
+          background: url("../images/IMG_0216_07.gif");
+          background-size: 100%;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: 0.45rem; }
+      .tongxunbox .box .content .con-box p {
+        width: 100%;
+        height: 0.68rem;
+        background: #f0f0f6;
+        font-size: 0.58rem;
+        color: #8e8e93;
+        padding-left: 0.3rem;
+        box-sizing: border-box; }
+      .tongxunbox .box .content .con-box .chat-list {
+        width: 100%;
+        margin-top: 1.3rem;
+        padding-left: 0.3rem;
+        box-sizing: border-box; }
+        .tongxunbox .box .content .con-box .chat-list li {
+          width: 100%;
+          height: 2.05rem;
+          border-bottom: 1px solid #d9d9d9; }
+          .tongxunbox .box .content .con-box .chat-list li:last-child {
+            border: none; }
+          .tongxunbox .box .content .con-box .chat-list li img {
+            width: 1.52rem;
+            height: 1.52rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+          .tongxunbox .box .content .con-box .chat-list li .item-con {
+            height: 1.52rem;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 2.13rem; }
+            .tongxunbox .box .content .con-box .chat-list li .item-con h4 {
+              line-height: 1.52rem;
+              font-size: 0.5rem;
+              color: black; }
+      .tongxunbox .box .content .con-box .chat-list1 {
+        width: 100%;
+        padding-left: 0.3rem;
+        box-sizing: border-box; }
+        .tongxunbox .box .content .con-box .chat-list1 li {
+          width: 100%;
+          height: 2.05rem;
+          border-bottom: 1px solid #d9d9d9; }
+          .tongxunbox .box .content .con-box .chat-list1 li:last-child {
+            border: none; }
+          .tongxunbox .box .content .con-box .chat-list1 li img {
+            width: 1.52rem;
+            height: 1.52rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+          .tongxunbox .box .content .con-box .chat-list1 li .item-con {
+            height: 1.52rem;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 2.13rem; }
+            .tongxunbox .box .content .con-box .chat-list1 li .item-con h4 {
+              line-height: 1.52rem;
+              font-size: 0.5rem;
+              color: black; }
+  .tongxunbox .box .nav-ce {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    width: 0.45rem;
+    height: 9.9rem; }
+    .tongxunbox .box .nav-ce li {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.65rem;
+      font-weight: bold;
+      color: #555555;
+      font-size: 0.25rem;
+      text-align: center; }
+      .tongxunbox .box .nav-ce li img {
+        width: 100%;
+        height: 100%; }
+  .tongxunbox .box .nav-bot {
+    width: 100%;
+    height: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: url("../images/IMG_0216_03.png") repeat-x;
+    border-top: 0.005rem solid #b2b2b2;
+    box-sizing: border-box; }
+    .tongxunbox .box .nav-bot li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      float: left; }
+      .tongxunbox .box .nav-bot li img {
+        width: 0.77rem;
+        height: 0.65rem; }
+      .tongxunbox .box .nav-bot li h5 {
+        font-size: 0.25rem;
+        color: #9b9b9b;
+        font-weight: normal;
+        line-height: 0; }
+
+.minebox .box {
+  width: 100%;
+  height: 22rem; }
+  .minebox .box .header {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.3rem;
+    background: url("../images/IMG_0227_03.png") repeat-x;
+    text-align: center;
+    font-size: 0.35rem;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.3rem; }
+    .minebox .box .header i {
+      display: block;
+      width: 0.58rem;
+      height: 0.59rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.62rem;
+      background: url("../images/IMG_0216_03.gif") no-repeat left center;
+      background-size: 100%; }
+  .minebox .box .content {
+    height: 18.53rem;
+    width: 100%;
+    position: fixed;
+    top: 1.3rem;
+    left: 0; }
+    .minebox .box .content .con-box {
+      position: relative;
+      width: 100%;
+      height: 106%;
+      overflow-y: auto;
+      background: #efeff4; }
+      .minebox .box .content .con-box p {
+        width: 100%;
+        height: 0.68rem;
+        background: #f0f0f6;
+        font-size: 0.58rem;
+        color: #8e8e93;
+        padding-left: 0.3rem;
+        box-sizing: border-box; }
+      .minebox .box .content .con-box .chat-list {
+        width: 100%;
+        padding-left: 0.4rem;
+        box-sizing: border-box;
+        background: #fff; }
+        .minebox .box .content .con-box .chat-list li {
+          width: 100%;
+          height: 2.65rem;
+          border-bottom: 1px solid #d9d9d9; }
+          .minebox .box .content .con-box .chat-list li:last-child {
+            border: none; }
+          .minebox .box .content .con-box .chat-list li img {
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+          .minebox .box .content .con-box .chat-list li .item-con {
+            height: 1.52rem;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 2.75rem; }
+            .minebox .box .content .con-box .chat-list li .item-con h4 {
+              font-size: 0.52rem;
+              color: black;
+              margin-top: 0.28rem; }
+            .minebox .box .content .con-box .chat-list li .item-con h5 {
+              font-size: 0.36rem;
+              color: #000;
+              margin-top: 0.2rem; }
+          .minebox .box .content .con-box .chat-list li .time {
+            width: 0.54rem;
+            height: 0.54rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url("../images/aaa_06.png") no-repeat;
+            background-size: 100%;
+            right: 1.18rem; }
+          .minebox .box .content .con-box .chat-list li .time1 {
+            width: 0.25rem;
+            height: 0.4rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url("../images/aaa_09.png") no-repeat;
+            background-size: 100%;
+            right: 0.65rem; }
+      .minebox .box .content .con-box .chat-list1 {
+        width: 100%;
+        padding-left: 0.4rem;
+        border-top: 0.01rem solid #d9d9d9;
+        border-bottom: 0.01rem solid #d9d9d9;
+        box-sizing: border-box;
+        background: #fff; }
+        .minebox .box .content .con-box .chat-list1 li {
+          width: 100%;
+          height: 1.3rem;
+          border-bottom: 1px solid #d9d9d9;
+          box-sizing: border-box; }
+          .minebox .box .content .con-box .chat-list1 li:last-child {
+            border: none; }
+          .minebox .box .content .con-box .chat-list1 li img {
+            width: 0.69rem;
+            height: 0.58rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+          .minebox .box .content .con-box .chat-list1 li .item-con {
+            height: 100%;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 1.8rem; }
+            .minebox .box .content .con-box .chat-list1 li .item-con h4 {
+              line-height: 1.3rem;
+              font-size: 0.5rem;
+              color: black; }
+          .minebox .box .content .con-box .chat-list1 li .time1 {
+            width: 0.25rem;
+            height: 0.4rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url("../images/aaa_09.png") no-repeat;
+            background-size: 100%;
+            right: 0.65rem; }
+  .minebox .box .nav-ce {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    width: 0.45rem;
+    height: 9.9rem; }
+    .minebox .box .nav-ce li {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.65rem;
+      font-weight: bold;
+      color: #555555;
+      font-size: 0.22rem;
+      text-align: center; }
+      .minebox .box .nav-ce li img {
+        width: 100%;
+        height: 100%; }
+  .minebox .box .nav-bot {
+    width: 100%;
+    height: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: url("../images/IMG_0216_03.png") repeat-x;
+    border-top: 0.005rem solid #b2b2b2;
+    box-sizing: border-box; }
+    .minebox .box .nav-bot li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      float: left; }
+      .minebox .box .nav-bot li img {
+        width: 0.77rem;
+        height: 0.65rem; }
+      .minebox .box .nav-bot li h5 {
+        font-size: 0.25rem;
+        color: #9b9b9b;
+        font-weight: normal;
+        line-height: 0; }
+
+.findbox .box {
+  width: 100%;
+  height: 22rem; }
+  .findbox .box .header {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.3rem;
+    background: url("../images/IMG_0227_03.png") repeat-x;
+    text-align: center;
+    font-size: 0.35rem;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.3rem; }
+    .findbox .box .header i {
+      display: block;
+      width: 0.58rem;
+      height: 0.59rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.62rem;
+      background: url("../images/IMG_0216_03.gif") no-repeat left center;
+      background-size: 100%; }
+  .findbox .box .content {
+    height: 18.53rem;
+    width: 100%;
+    position: fixed;
+    top: 1.3rem;
+    left: 0; }
+    .findbox .box .content .con-box {
+      position: relative;
+      width: 100%;
+      height: 106%;
+      overflow-y: auto;
+      background: #efeff4; }
+      .findbox .box .content .con-box p {
+        width: 100%;
+        height: 0.68rem;
+        background: #f0f0f6;
+        font-size: 0.58rem;
+        color: #8e8e93;
+        padding-left: 0.3rem;
+        box-sizing: border-box; }
+      .findbox .box .content .con-box .chat-list1 {
+        width: 100%;
+        padding-left: 0.4rem;
+        border-top: 0.01rem solid #d9d9d9;
+        border-bottom: 0.01rem solid #d9d9d9;
+        box-sizing: border-box;
+        background: #fff; }
+        .findbox .box .content .con-box .chat-list1 li {
+          width: 100%;
+          height: 1.3rem;
+          border-bottom: 1px solid #d9d9d9;
+          box-sizing: border-box; }
+          .findbox .box .content .con-box .chat-list1 li:last-child {
+            border: none; }
+          .findbox .box .content .con-box .chat-list1 li img {
+            width: 0.69rem;
+            height: 0.58rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+          .findbox .box .content .con-box .chat-list1 li .item-con {
+            height: 100%;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 1.8rem; }
+            .findbox .box .content .con-box .chat-list1 li .item-con h4 {
+              line-height: 1.3rem;
+              font-size: 0.5rem;
+              color: #1a1a1a; }
+          .findbox .box .content .con-box .chat-list1 li .time1 {
+            width: 0.25rem;
+            height: 0.4rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url("../images/aaa_09.png") no-repeat;
+            background-size: 100%;
+            right: 0.65rem; }
+  .findbox .box .nav-ce {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    width: 0.45rem;
+    height: 9.9rem; }
+    .findbox .box .nav-ce li {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.65rem;
+      font-weight: bold;
+      color: #555555;
+      font-size: 0.22rem;
+      text-align: center; }
+      .findbox .box .nav-ce li img {
+        width: 100%;
+        height: 100%; }
+  .findbox .box .nav-bot {
+    width: 100%;
+    height: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: url("../images/IMG_0216_03.png") repeat-x;
+    border-top: 0.005rem solid #b2b2b2;
+    box-sizing: border-box; }
+    .findbox .box .nav-bot li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      float: left; }
+      .findbox .box .nav-bot li img {
+        width: 0.77rem;
+        height: 0.65rem; }
+      .findbox .box .nav-bot li h5 {
+        font-size: 0.25rem;
+        color: #9b9b9b;
+        font-weight: normal;
+        line-height: 0; }
+
+.out {
+  display: block; }
+
+.botbox {
+  width: 100%;
+  height: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 10; }
+  .botbox a {
+    width: 25%;
+    height: 100%;
+    float: left; }
